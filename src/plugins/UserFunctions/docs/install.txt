@@ -1,0 +1,7 @@
+1. Copy UserFunctions directory to Zikula plugins directory.
+2. Go to Admin Panel, Extensions, System plugins, and activate the plugin.
+3. Rename or copy file functions_example.php to functions.php
+4. Put in functions.php what you like to be available or executed when Zikula boots.
+5. Upload functions.php in UserFunctions directory.
+
+That's all. Now it is executed when Zikula loads.

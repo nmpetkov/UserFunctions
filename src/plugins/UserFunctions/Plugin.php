@@ -13,8 +13,8 @@ class SystemPlugin_UserFunctions_Plugin extends Zikula_AbstractPlugin implements
     protected function getMeta()
     {
         return array('displayname' => $this->__('UserFunctions'),
-                     'description' => $this->__('Provides user defined functions and classes available all the time, and to execute code at boot ime.'),
-                     'version'     => '0.2.7'
+                     'description' => $this->__('Provides user defined functions, classes and/or actions, available all the time, and loaded at Zikula boot.'),
+                     'version'     => '1.0.0'
                       );
     }
 
